@@ -14,7 +14,7 @@ DBSubnet2_cidr_block           =   "10.0.5.0/24"
 ec2_name_jumpserver 		   = "Demo-JumpServer"
 ec2_type_jumpserver	  	       = "t3.micro"
 ec2_key_name_jumpserver 	   = "Gary-Demo"
-sg_ip_address_range_jumpserver = ["52.198.107.166/32"]
+sg_ip_address_range_jumpserver = ["0.0.0.0/0"]
 
 #parameter for rds
 mysql_identifier               = "demo-mysql"
