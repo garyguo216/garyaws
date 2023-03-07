@@ -5,7 +5,7 @@ data "aws_ami" "aws_app_ami" {
     most_recent      = true
     filter {
         name = "name"
-        values = ["*CentOS*7.9*x86-64*"]
+        values = ["CentOS-7*x86_64*"]
     }
 }
 
